@@ -2,8 +2,7 @@ name: "Push containers"
 
 on:
   push:
-    tags:
-      - '*.*.*'
+    branches: main
 
 jobs:
   build:
